@@ -6,7 +6,7 @@
 # sudo systemctl restart apache
 
 # how to copy files off server
-# scp dave@hoverflytest39.westeurope.cloudapp.azure.com:/home/dave/php.ini .
+# scp dave@hoverflytest39.westeurope.cloudapp.azure.com:/home/dkalog/php.ini .
 
 # https://www.journaldev.com/24954/install-wordpress-on-ubuntu  (suggests Maria)
 # https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04
