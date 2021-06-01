@@ -119,7 +119,7 @@ final_message: "The system is finally up, after $UPTIME seconds"
   # - sudo apt install bashtop -y
 
 # make a quick test page to signify that the server is ready to go
-  # - cd /var/www/cookie-dave-web
+  # - cd /var/www/cookie-dkalog-web
   # - echo "Healthy" > healthcheck.html
 
 # OS updates need a reboot 
