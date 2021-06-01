@@ -89,9 +89,9 @@ runcmd:
   - sudo chmod -R 755 /var/www/html/wp-content
 
   # I need the domain name eg http://hoverflytest427.westeurope.cloudapp.azure.com/
-  # - sudo chmod 777 /home/dave/source/infra/wpcoreinstall.sh
-  # - sudo -u www-data /home/dave/source/infra/wpcoreinstall.sh
-  - sudo -u www-data wp core install --url='https://hoverflylagoons.co.uk' --title='Blog Title' --admin_user='dave' --admin_password='letmein' --admin_email='email@domain.com'
+  # - sudo chmod 777 /home/dkalog/source/infra/wpcoreinstall.sh
+  # - sudo -u www-data /home/dkalog/source/infra/wpcoreinstall.sh
+  - sudo -u www-data wp core install --url='https://hoverflylagoons.co.uk' --title='Blog Title' --admin_user='dkalog' --admin_password='letmein' --admin_email='email@domain.com'
 
   # plugins
   - sudo -u www-data wp plugin install all-in-one-wp-migration --activate  
