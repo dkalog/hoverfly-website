@@ -17,13 +17,13 @@ runcmd:
   - sudo apt install apache2 -y
 
   # get helper files from repo
-  - cd /home/dave
+  - cd /home/dkalog
   - sudo git clone https://github.com/dkalog/openhi-website.git source
 
   # AllowOverride in web root for url rewriting
-  - sudo cp /home/dave/source/infra/000-default.conf /etc/apache2/sites-available
+  - sudo cp /home/dkalog/source/infra/000-default.conf /etc/apache2/sites-available
   # cloudflare connects on SSL (even though we're using the default self signed ssl)
-  - sudo cp /home/dave/source/infra/default-ssl.conf /etc/apache2/sites-available
+  - sudo cp /home/dkalog/source/infra/default-ssl.conf /etc/apache2/sites-available
 
   - sudo a2enmod rewrite
   - sudo a2enmod ssl
