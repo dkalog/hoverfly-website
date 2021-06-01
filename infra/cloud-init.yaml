@@ -18,7 +18,7 @@ runcmd:
 
   # get helper files from repo
   - cd /home/dave
-  - sudo git clone https://github.com/djhmateer/hoverfly-website.git source
+  - sudo git clone https://github.com/dkalog/openhi-website.git source
 
   # AllowOverride in web root for url rewriting
   - sudo cp /home/dave/source/infra/000-default.conf /etc/apache2/sites-available
